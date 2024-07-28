@@ -120,18 +120,20 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Style to center embedded videos */
-iframe {
-    display: block;
-    margin: 0 auto; /* Centers the iframe */
-    border: none; /* Removes border if any */
+/* Center embedded videos */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Optional: Adjust the top and bottom margins as needed */
 }
 
-/* Optional: You can also add some padding or margin around the video */
-.section-with-video {
-    padding: 20px 0; /* Adds vertical padding */
-    text-align: center; /* Ensures the text within the section is centered */
+iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: Rounded corners for the iframe */
 }
+
 
 
 /* Footer styles */
