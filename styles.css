@@ -104,7 +104,7 @@ a:hover {
 
 iframe {
     max-width: 560px;
-    height: auto;
+    height: 315px;
     border-radius: 5px; /* Optional: Rounded corners for the iframe */
 }
 
