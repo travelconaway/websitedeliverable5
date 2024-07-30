@@ -103,7 +103,7 @@ a:hover {
 }
 
 iframe {
-    max-width: 100%;
+    max-width: 560px;
     height: auto;
     border-radius: 5px; /* Optional: Rounded corners for the iframe */
 }
